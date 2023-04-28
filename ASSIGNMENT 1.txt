@@ -1,0 +1,166 @@
+QUESTION ANSWER 
+
+                                                          (1) ARE THE HTML TAGS AND ELEMENTS THE SAME THING??????????
+
+ANS. The html tags and elements are not the same thing. 
+     they arew different things. 
+     html tags are building blocks of html page
+     html elements are components that are used in html page..
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+                                                          (2) WHAT ARE TAGS AND ATTRIBUTES IN HTML??????????
+
+ANS. Tags : The tags mark the beginning and the end of an element.
+     attributes: The attributes are only whithin the opening tags 
+     they both are equally important  
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                          (3) WHAT ARE VOID ELEMENTS IN HTML???????
+
+ANS. THE following is a complete list of the void elements in html:
+     area, base, br, col, command, hr, img, input, link,
+----------------------------------------------------------------------------------------------------------------------------------------------------------------     
+                                                          (4) WHAT ARE HTML ENTITIES???????
+
+ANS.  An html entity is a piece of text that begins with an ampersand
+      and ends with a semicolon .
+---------------------------------------------------------------------------------------------------------------------------------------------------------------                 
+                                                          (5) WHAT ARE DIFFERENT TYPE OF LISTS IN HTML?
+
+ANS. <ul>	Defines an unordered list
+     <ol>	Defines an ordered list
+     <li>	Defines a list item
+     <dl>	Defines a description list
+     <dt>	Defines a term in a description list
+     <dd>	Describes the term in a description list
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                         (6) WHAT IS THE "CLASS" ATRIBUTES IN HTML?
+
+ANS. The class attribute specifies one or more classnames for an element.
+     EX.  <html>
+<head>
+<style>
+h1.intro {
+    color: blue;
+}
+
+p.important {
+    color: green;
+}
+</style>
+</head>
+<body>
+
+<h1 class="intro">Header 1</h1>
+<p>A paragraph.</p>
+<p class="important">Note that this is an important paragraph. :)</p>
+
+</body>
+</html>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------     
+                                      (7) WHAT IS THE DIFFERENCE BETWEEN THE 'ID' ATTRIBUTE AND THE 'CLASS' ATTRIBUTE OF HTML ELEMENTS??
+
+ANS.  A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                               (8) WHAT ARE THE VARIOUS FORMATTING TAGS IN HTML ????
+ANS. <b> - Bold text
+     <strong> - Important text
+     <i> - Italic text
+     <em> - Emphasized text
+     <mark> - Marked text
+     <small> - Smaller text
+     <del> - Deleted text
+     <ins> - Inserted text
+     <sub> - Subscript text
+     <sup> - Superscript text
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------           
+                                               (9) HOW IS CELL PADDING DIFFERENT FROM CELL SPACING????
+
+ANS. Cellpadding basically defines the space present between a table cell's border and the content present in it.
+    Cellspacing basically defines the space present between individual adjacent cells.
+ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                    (10) HOW CAN WE CLUB TWO OR MORE ROWS OR COLUMNS INTO A SINGLE ROW OR COLUMN IN AN HTML TABLE    
+
+ANS. To merge two or more rows or columns into a single row or column in an HTML table,
+      you can use the rowspan and colspan attributes in the <td> or <th> tags. 
+EX.
+<table>
+  <tr>
+    <th rowspan="2">Name</th>
+    <th colspan="2">Contact Information</th>
+  </tr>
+  <tr>
+    <th>Phone</th>
+    <th>Email</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>555-5555</td>
+    <td>john@example.com</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td colspan="2">No phone number provided</td>
+  </tr>
+</table>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                      (11) WHAT IS THE DIFFERENCE BETWEEN A BLOCK LEVEL ELEMENT AND AN INLINE ELEMENT?????
+
+ANS. inline elements do not force a new line to begin in the document flow. Block elements, 
+     on the other hand, typically cause a line break to occur 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                (12) HOW TO CREATE A HYPERLINK IN HTML????
+ANS. To create a hyperlink in HTML, you need to use the anchor tag, which is represented by the <a> tag.  
+     EX. 
+     <a href="url">link text</a>
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                 (13)  WHAT IS THE USE OF AN IFRAME TAG  ?
+
+ANS. The <iframe> tag in HTML is used to embed or display another
+     HTML document within the current web page. It stands for "inline frame
+     EX.  
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                               (14)  WHAT IS THE USE OF SPAN TAG ? EXPLAIN WITH EXPLAIN ?
+
+ANS.  The <span> tag in HTML is used to group and apply styles to inline elements.
+       EX.
+       <p>This is a <span style="color: blue">blue</span> word in a sentence.</p>
+       In this example, the <span> tag is used to apply a blue color to the word "blue" within the sentence.
+       The "style" attribute is used to specify the CSS properties for the <span> element.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                              (15) HOW TO INSERT A PICTURE INTO A BACKGROUND IMAGE OF A WEB PAGE?
+
+ANS. EX.
+     body {
+           background-image: url("background-image.jpg");
+           background-position: center;
+           background-size: cover;
+          }
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                             (16) HOW ARE ACTIVE LINKS DIFFERENT FROM NORMAL LINKS?
+
+ANS. Active links and normal links are different in terms of their appearance or behavior when a user interacts with them.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                            (17) HOW ARE THE DIFFERENT TAGS TO SEPARATE SECTIONS OF TEXT???
+
+ANS. <br> tag – It is used to separate the line of text. It breaks the current line and shifts the flow of the text to a new line.
+    <p> tag–This tag is used to write a paragraph of text.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                   (18) WHAT IS THE SVG?????
+
+ANS. The <svg> tag defines a container for SVG graphics. SVG has several methods for
+     drawing paths, boxes, circles, text, and graphic images.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       (19)  WHAT IS THE DIFFERENCE BETWEEN HTML AND XHTML ???
+
+ANS. HTML is the standard markup language for creating web pages, while XHTML is a stricter and more standardized version of HTML.
+     Both HTML and XHTML include a wide range of features, such as support for multimedia, styling, and scripting.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                       (20) WHAT ARE LOGICAL AND PHYSICAL TAGS IN HTML ??/
+
+ANS. Logical tags : Logical tags are used to tell the meaning of the enclosed text. The example of the logical tag is <strong> </strong> tag.
+      When we enclose the text in the strong tag, it tells the browser that enclosed text is more important than other texts.
+
+     Physical tags : Physical tags are used to tell the browser how to display the text enclosed in the physical tag.
+     Some of the examples of physical tags are <b>, <big>, <i>.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
